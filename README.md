@@ -1,4 +1,9 @@
 # NAS Homelab – Self-Hosted Storage Infrastructure (DIY Project)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Project](https://img.shields.io/badge/project-NAS%20Homelab-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-v0.1--beta-orange)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 
 ## Overview
 
