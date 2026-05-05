@@ -30,7 +30,9 @@ Riutilizzare hardware obsoleto per creare un sistema di storage funzionante, acc
 
 ## 📸 Demo
 
-*(aggiungerò foto e video del sistema reale)*
+## terst update PR
+
+
 ##### Foto dell'hardware pentium 
 ![Pentium NAS](media/photo/pentium.png)
 
