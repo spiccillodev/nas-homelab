@@ -30,7 +30,7 @@ Riutilizzare hardware obsoleto per creare un sistema di storage funzionante, acc
 
 ## 📸 Demo
 
-## terst update PR
+## test update PR
 
 
 ##### Foto dell'hardware pentium 
