@@ -27,6 +27,9 @@ The project was also designed as a learning environment to explore networking, L
 - Remote access: Tailscale VPN (mesh network)
 - SSH access: Termius (mobile + desktop)
 
+## 📊 System Architecture
+
+![NAS Architecture](media/diagrams/nas-architecture.png)
 ---
 
 ## 🌐 Remote Access Strategy
