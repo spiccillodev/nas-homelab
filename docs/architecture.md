@@ -2,21 +2,22 @@
 
 ## Overview
 
-This NAS homelab is built using repurposed legacy hardware to provide low-cost, self-hosted storage.
+The system is composed of repurposed legacy hardware configured into a lightweight NAS infrastructure.
 
 ## Components
 
-- NAS Node: Intel Pentium running OpenMediaVault
-- Storage Expansion: Disk from Intel Atom laptop
-- Network: LAN via router
-- Remote Access: Tailscale VPN
+- NAS Node: Intel Pentium desktop running OpenMediaVault
+- Storage Node: 230GB HDD from Intel Atom laptop (NTFS)
+- Network: Local LAN via router
+- Remote Access Layer: Tailscale VPN mesh network
 
 ## Data Flow
 
-Client → Router → NAS → Storage Disk
+Client Device → Tailscale VPN → NAS → Storage Disk
 
-## Key Goals
+## Design Principles
 
-- Low resource usage
-- Stability over performance
-- Remote accessibility
+- Minimal cost
+- Hardware reuse
+- Remote accessibility without public exposure
+- Simplicity over performance

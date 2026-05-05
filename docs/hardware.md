@@ -1,13 +1,23 @@
-# Hardware utilizzato
+# Hardware Overview
 
-## Desktop
+## Primary System
 
-Intel Pentium, 1GB RAM
+- CPU: Intel Pentium
+- RAM: 1GB DDR2
+- Role: Main NAS node
 
-## Laptop
+## Storage
 
-Intel Atom, utilizzato come storage secondario
+- 230GB HDD (from Intel Atom laptop)
+- Format: NTFS
+- Mounted as additional storage volume
 
-## Note
+## Issues Encountered
 
-Hardware recuperato e riadattato per uso NAS.
+- Limited RAM availability due to obsolete DDR2 standard
+- BIOS battery issues causing resets
+- Hardware instability under heavy load
+
+## Notes
+
+Hardware was fully reused to minimize cost and maximize learning experience.

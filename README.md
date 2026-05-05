@@ -1,51 +1,74 @@
-# 🖥️ NAS Homelab su Hardware Legacy
+# NAS Homelab – Self-Hosted Storage Infrastructure (DIY Project)
 
-Costruzione di un NAS domestico utilizzando hardware recuperato (Pentium + Intel Atom), con focus su efficienza, networking e accesso remoto.
+## Overview
 
----
+This project is a self-hosted NAS system built using repurposed legacy hardware.  
+Its primary goal is to replace commercial cloud storage services (Google Drive, iCloud) with a private, always-available storage solution accessible locally and remotely.
 
-## 🚀 Obiettivo
-
-Riutilizzare hardware obsoleto per creare un sistema di storage funzionante, accessibile in rete locale e da remoto.
-
----
-
-## 🧱 Hardware
-
-- Desktop Intel Pentium (1GB RAM)
-- Laptop Intel Atom (disco riutilizzato)
-- Connessione LAN cablata
+The project was also designed as a learning environment to explore networking, Linux system administration, and remote infrastructure management.
 
 ---
 
-## ⚙️ Tecnologie
+## 🎯 Objectives
 
-- OpenMediaVault
-- Lubuntu (headless)
-- Tailscale
-- SSH
-- Wake-on-LAN
-
----
-
-## 📸 Demo
-
-## test update PR
-
-
-##### Foto dell'hardware pentium 
-![Pentium NAS](media/photo/pentium.png)
-
+- Create a private always-on storage system
+- Replace paid cloud storage services
+- Enable remote access from multiple devices (PC, smartphone)
+- Learn Linux, networking, and system administration
+- Maximize usage of obsolete hardware
 
 ---
 
-## 📂 Documentazione
+## 🧱 System Architecture
 
-- docs/
-- setup/
+- Main NAS: Intel Pentium desktop (OpenMediaVault)
+- Storage expansion: 230GB HDD from Intel Atom laptop (NTFS)
+- Network: LAN connection via router (static IP)
+- Remote access: Tailscale VPN (mesh network)
+- SSH access: Termius (mobile + desktop)
 
 ---
 
-## 📄 License
+## 🌐 Remote Access Strategy
 
-MIT
+- Tailscale used for secure private networking
+- Custom local DNS naming for easier access
+- No public port forwarding
+- Access from:
+  - Laptop
+  - Desktop
+  - Smartphone
+
+---
+
+## 🔐 Security Approach
+
+- SSH key-based authentication (replaced password login)
+- No exposed router ports
+- VPN-only access via Tailscale
+
+---
+
+## ⚙️ Power Management
+
+- Wake-on-LAN enabled
+- Smart plug used for remote power control
+- BIOS configured to allow automatic wake on power events
+
+---
+
+## ⚠️ Limitations
+
+- Very low hardware performance (1GB RAM DDR2 system)
+- Storage expansion limited
+- Some self-hosted solutions (Nextcloud, TrueNAS) not feasible
+- Hardware upgrade required for scalability
+
+---
+
+## 🚀 Future Improvements
+
+- Migration to Micro-ATX / Mini-ITX system
+- Upgrade RAM and storage
+- Deploy TrueNAS SCALE
+- Add proper containerized services (Docker / Kubernetes)
