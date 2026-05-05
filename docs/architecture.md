@@ -4,12 +4,13 @@
 
 The system is composed of repurposed legacy hardware configured into a lightweight NAS infrastructure.
 
-## Components
+## Logica di Flusso
 
-- NAS Node: Intel Pentium desktop running OpenMediaVault
-- Storage Node: 230GB HDD from Intel Atom laptop (NTFS)
-- Network: Local LAN via router
-- Remote Access Layer: Tailscale VPN mesh network
+Il sistema opera come un nodo centrale in una rete a stella:
+
+1. **Data Layer:** Basato su Linux (Lubuntu) con OpenMediaVault per la gestione dei permessi SMB.
+2. **Access Layer:** Tunneling cifrato punto-punto tramite Tailscale.
+3. **Control Layer:** Amministrazione via SSH (CLI-first).
 
 ## Data Flow
 
@@ -23,6 +24,7 @@ Client Device → Tailscale VPN → NAS → Storage Disk
 - Simplicity over performance
 
 ## Architecture Diagram in Mermaid
+
 ```mermaid
 flowchart TD
 
