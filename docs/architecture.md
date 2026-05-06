@@ -2,21 +2,57 @@
 
 ## Overview
 
-This NAS homelab is built using repurposed legacy hardware to provide low-cost, self-hosted storage.
+The system is composed of repurposed legacy hardware configured into a lightweight NAS infrastructure.
 
-## Components
+## Logica di Flusso
 
-- NAS Node: Intel Pentium running OpenMediaVault
-- Storage Expansion: Disk from Intel Atom laptop
-- Network: LAN via router
-- Remote Access: Tailscale VPN
+Il sistema opera come un nodo centrale in una rete a stella:
+
+1. **Data Layer:** Basato su Linux (Lubuntu) con OpenMediaVault per la gestione dei permessi SMB.
+2. **Access Layer:** Tunneling cifrato punto-punto tramite Tailscale.
+3. **Control Layer:** Amministrazione via SSH (CLI-first).
 
 ## Data Flow
 
-Client → Router → NAS → Storage Disk
+Client Device → Tailscale VPN → NAS → Storage Disk
 
-## Key Goals
+## Design Principles
 
-- Low resource usage
-- Stability over performance
-- Remote accessibility
+- Minimal cost
+- Hardware reuse
+- Remote accessibility without public exposure
+- Simplicity over performance
+
+## Architecture Diagram in Mermaid
+
+```mermaid
+flowchart TD
+
+Internet[🌍 Internet Private Access]
+Tailscale[🔐 Tailscale VPN Mesh]
+
+Router[🌐 Home Router]
+
+NAS[🖥️ NAS Server\nIntel Pentium + OMV]
+
+LaptopDisk[💾 Laptop HDD 230GB]
+PS4HDD[🎮 PS4 Recovered HDD]
+DesktopHDD[💻 Old Desktop HDD]
+
+Laptop[💻 Laptop SSH]
+Phone[📱 Smartphone]
+PC[🖥️ Desktop PC]
+
+Internet --> Tailscale
+Tailscale --> Router
+
+Router --> NAS
+
+Laptop --> NAS
+Phone --> NAS
+PC --> NAS
+
+NAS --> LaptopDisk
+NAS --> PS4HDD
+NAS --> DesktopHDD
+```
