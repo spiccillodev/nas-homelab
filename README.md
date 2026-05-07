@@ -1,4 +1,5 @@
 # NAS Homelab – Self-Hosted Storage Infrastructure (DIY Project)
+
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Project](https://img.shields.io/badge/project-NAS%20Homelab-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -55,6 +56,7 @@ Hybrid Power Control: Per superare i limiti del Wake-on-LAN (WoL) tradizionale s
 ## 📊 System Architecture
 
 ![NAS Architecture](media/diagrams/nas-architecture.png)
+
 ---
 
 ## 🌐 Remote Access Strategy
@@ -70,6 +72,7 @@ Hybrid Power Control: Per superare i limiti del Wake-on-LAN (WoL) tradizionale s
 ---
 
 ## 💡 Challenges & Problem Solving
+
 Sicurezza: Eliminazione del Port Forwarding sul router domestico tramite tunnel crittografato (VPN)Tailscale.
 
 Power Management: Superamento dei limiti WoL tramite configurazione BIOS "Restore on AC Power" accoppiata a una presa smart domotica.
@@ -77,6 +80,7 @@ Power Management: Superamento dei limiti WoL tramite configurazione BIOS "Restor
 Hardware Hacking (CMOS Fix): Risoluzione di un problema critico di instabilità del BIOS (reset delle impostazioni ad ogni avvio) tramite il modding fisico del socket della batteria tampone.
 
 ---
+
 ## 📂 Project Structure
 
 ```
@@ -88,7 +92,7 @@ nas-homelab/
 └── config/                 # File di configurazione di esempio (SMB, SSH)
 ```
 
---- 
+---
 
 ## ⚠️ Limiti del Sistema
 
