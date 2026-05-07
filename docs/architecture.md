@@ -1,10 +1,12 @@
 # System Architecture
 
+> [!NOTE]
+>In questa sezione viene documentata l'architettura complessiva del sistema NAS, con un focus sui componenti hardware, la topologia di rete e il flusso dei dati.
+
 ## Overview
+Il sistema è composto da hardware legacy riutilizzato, configurato in un'infrastruttura NAS leggera.
 
-The system is composed of repurposed legacy hardware configured into a lightweight NAS infrastructure.
-
-## Logica di Flusso
+## 01. Logica di Flusso
 
 Il sistema opera come un nodo centrale in una rete a stella:
 
@@ -16,14 +18,14 @@ Il sistema opera come un nodo centrale in una rete a stella:
 
 Client Device → Tailscale VPN → NAS → Storage Disk
 
-## Design Principles
+## 02. Design Principles
 
 - Minimal cost
 - Hardware reuse
 - Remote accessibility without public exposure
 - Simplicity over performance
 
-## Architecture Diagram in Mermaid
+## 03. Architecture Diagram in Mermaid
 
 ```mermaid
 flowchart TD
