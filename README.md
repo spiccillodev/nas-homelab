@@ -1,5 +1,9 @@
 # NAS Homelab – Self-Hosted Storage Infrastructure (DIY Project)
 
+<p align="center">
+  <img src="media/photo/asgana-nas.png" alt="NAS Homelab Logo" width="200"/>
+</p>
+
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Project](https://img.shields.io/badge/project-NAS%20Homelab-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
