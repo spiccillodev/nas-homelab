@@ -1,10 +1,11 @@
 # Engineering Decisions & Architecture Records
 
-In questa sezione vengono documentate le scelte architetturali critiche, analizzando le motivazioni tecniche, i compromessi (trade-offs) e le alternative considerate.
+> [!NOTE]
+>In questa sezione vengono documentate le scelte architetturali critiche, analizzando le motivazioni tecniche, i compromessi (trade-offs) e le alternative considerate.
 
 ---
 
-## 🏗️ 01. Selezione del Software di Gestione: OpenMediaVault
+## 01. Selezione del Software di Gestione: OpenMediaVault
 
 **Contesto:** Hardware estremamente limitato (1GB RAM DDR2, CPU legacy).
 
@@ -14,7 +15,7 @@ In questa sezione vengono documentate le scelte architetturali critiche, analizz
 
 ---
 
-## 🛡️ 02. Networking & Security: Tailscale vs Port Forwarding
+## 02. Networking & Security: Tailscale vs Port Forwarding
 
 **Contesto:** Necessità di accesso remoto globale senza esporre l'IP pubblico domestico.
 
@@ -24,7 +25,7 @@ In questa sezione vengono documentate le scelte architetturali critiche, analizz
 
 ---
 
-## 🔑 03. Autenticazione: SSH Key-Based Only
+## 03. Autenticazione: SSH Key-Based Only
 
 **Contesto:** Gestione del server tramite Termius (Mobile/Desktop).
 
@@ -33,7 +34,7 @@ In questa sezione vengono documentate le scelte architetturali critiche, analizz
 
 ---
 
-## 🔌 04. Power Management: Cold Boot via Smart Plug
+## 04. Power Management: Cold Boot via Smart Plug
 
 **Contesto:** Inaffidabilità del Wake-on-LAN (WoL) su scheda madre legacy.
 
@@ -42,7 +43,7 @@ In questa sezione vengono documentate le scelte architetturali critiche, analizz
 
 ---
 
-## 📊 Analisi dei Trade-offs (Compromessi)
+## 05. Analisi dei Trade-offs (Compromessi)
 
 | Sfida           | Scelta                  | Compromesso                                                       |
 | :-------------- | :---------------------- | :---------------------------------------------------------------- |
@@ -52,7 +53,7 @@ In questa sezione vengono documentate le scelte architetturali critiche, analizz
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 
 1. **L'hardware legacy non è e-waste:** Con la giusta configurazione software (CLI-first), macchine di 15 anni fa possono gestire infrastrutture di storage sicure.
 2. **Security-First Mindset:** La configurazione di Tailscale e delle chiavi SSH ha insegnato che la comodità (accesso da telefono) non deve mai andare a discapito della sicurezza.
