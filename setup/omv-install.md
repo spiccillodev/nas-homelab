@@ -65,3 +65,4 @@ Dopo il primo accesso:
 
 - OMV Install Script: https://github.com/OpenMediaVault-Plugin-Developers/installScript  
 - OpenMediaVault Official: https://www.openmediavault.org/
+- OMV Documentation: https://docs.openmediavault.org/en/latest/installation/
