@@ -9,7 +9,7 @@ Invece di utilizzare la ISO ufficiale di **OpenMediaVault**, è stata preferita 
 ## References
 
 - Lubuntu Official Website: <https://lubuntu.me/>
-- Ubuntu Installation Guide: <https://ubuntu.com/tutorials/install-ubuntu-desktop>
+- Lubuntu Manual: <https://manual.lubuntu.me/stable/>
 
 ---
 
@@ -84,7 +84,7 @@ sudo systemctl disable avahi-daemon.service
 
 - Debian systemd wiki: <https://wiki.debian.org/systemd>  
 - CUPS documentation: <https://www.cups.org/doc/man-cupsd.html>  
-- Avahi documentation: <https://www.freedesktop.org/wiki/Software/Avahi/>
+- Avahi documentation: <https://avahi.org>
 
 ---
 
