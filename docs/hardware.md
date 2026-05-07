@@ -9,7 +9,7 @@ Il cuore del progetto è un vecchio desktop e un laptop basati rispettivamente s
 - **CPU:** Intel Pentium / Atom (Single/Dual Core legacy)
 - **RAM:** 1GB DDR2 (2x512MB)
 - **Storage:** HDD 230GB SATA (ex-laptop Atom)
-- **Networking:** Ethernet 10/100 Mbps
+- **Networking:** Ethernet 100 Mbps
 
 ---
 
