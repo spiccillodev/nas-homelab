@@ -117,3 +117,9 @@ Il progetto evolverà verso una build più solida e performante:
 [ ] Integrazione di servizi containerizzati via Docker(Plex/Jellyfin, Pi-hole).
 
 _Creato con passione per il self-hosting e l'hardware recovery._
+
+<p align="center">
+  <a href="https://github.com/spiccillodev">
+    <img src="https://img.shields.io/badge/%20Sviluppato%20con%20dedizione-Spiccillo-blueviolet?style=for-the-badge&logo=github&logoColor=white" alt="Spiccillo Profile" />
+  </a>
+</p>
