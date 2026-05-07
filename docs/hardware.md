@@ -6,10 +6,122 @@ Il cuore del progetto è un vecchio desktop e un laptop basati rispettivamente s
 
 ### Specifiche Tecniche
 
-- **CPU:** Intel Pentium / Atom (Single/Dual Core legacy)
-- **RAM:** 1GB DDR2 (2x512MB)
-- **Storage:** HDD 230GB SATA (ex-laptop Atom)
-- **Networking:** Ethernet 100 Mbps
+- *# Hardware NAS Homemade
+
+## Motherboard / Platform
+
+- Platform: Intel LGA775
+- Southbridge Chipset: Intel 82801GB ICH7 (SL8FX)
+- Super I/O Controller: ITE IT8718F-S
+- Form Factor: likely Micro-ATX
+- Estimated Production Period: 2007–2008
+
+### Features
+- SATA support
+- DDR2 memory support
+- Legacy BIOS platform
+- Wake-on-LAN support (hardware dependent)
+- AC Power Recovery support
+- Designed for low-power office/business systems
+
+---
+
+## CPU
+
+### Installed Processor
+
+- Brand: Intel
+- Family: Intel Pentium
+- Architecture: x86_64
+- Socket: LGA775
+- Estimated Frequency: ~2.0–2.8 GHz
+- Core Count: 1–2 cores
+- Estimated TDP: 35W–65W
+
+### Characteristics
+
+- Designed for office and entry-level desktop systems
+- Low power consumption compared to high-end CPUs of the era
+- Suitable for lightweight NAS and homelab workloads
+- Supports basic multitasking and network services
+
+---
+
+## RAM
+
+### Installed Module
+
+- Brand: Samsung
+- Model: M378T2863RZS-CE6
+- Capacity: 1 GB
+- Memory Type: DDR2 SDRAM
+- Speed: 667 MHz
+- Standard: PC2-5300U
+- Rank Configuration: 1Rx8
+- CAS Latency: CL5
+- Voltage: 1.8V
+- Unbuffered / Non-ECC
+
+### Full RAM Label
+
+Samsung 1GB 1Rx8 PC2-5300U-555-12-ZZ  
+M378T2863RZS-CE6
+
+---
+
+## Power Supply
+
+- OEM Manufacturer: Lenovo / IBM
+- FRU Part Number: 41N3479
+- P/N: 41N3480
+- Revision: REV 01
+- Manufacturing Date: 2008-02-27
+- Origin: China
+
+## Network (Ethernet)
+
+- Speed: 10/100 Mbps (Fast Ethernet)
+- Standard: IEEE 802.3u
+
+---
+
+### Notes
+
+- OEM business-class power supply
+- Intended for Lenovo ThinkCentre systems
+- Suitable for low-power NAS operation
+
+---
+
+## General NAS Characteristics
+
+### Advantages
+
+- Very low acquisition cost
+- Recycled legacy hardware
+- Low idle power consumption
+- Good for lightweight self-hosting services
+- Excellent learning platform for homelab experimentation
+
+### Limitations
+
+- Limited RAM capacity
+- Old SATA controller generation
+- No native NVMe support
+- Limited virtualization capabilities
+- Lower network throughput compared to modern platforms
+
+---
+
+## Intended Usage
+
+- File storage
+- Backup server
+- Media server
+- Remote access experimentation
+- Wake-on-LAN testing
+- Homelab learning environment
+- Network services and automation
 
 ---
 
