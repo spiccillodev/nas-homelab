@@ -1,0 +1,57 @@
+NAS Homelab - Network Configuration Example
+
+[ Local Network ]
+
+Connection Type:
+- Wired Ethernet (Fast Ethernet 100 Mbps)
+
+IP Configuration:
+- Static IP assigned via router DHCP reservation
+
+Local Services:
+- SSH
+- SMB/CIFS
+- OpenMediaVault Web UI
+
+[ Remote Access ]
+
+VPN Solution:
+- Tailscale Mesh VPN (WireGuard-based)
+
+Remote Access Methods:
+- SSH via local IP
+- SSH via Tailscale hostname
+- OMV Web UI via internal VPN DNS
+
+MagicDNS:
+- Enabled for hostname-based access
+
+Example Hostname:
+- nas-homelab.tailnet.ts.net
+
+[ Security ]
+
+- No public port forwarding
+- SSH access restricted through VPN
+- Fail2Ban enabled
+- SSH key authentication preferred
+
+[ Operational Workflow ]
+
+Primary Access:
+- Desktop workstation on local LAN
+
+Secondary Access:
+- Smartphone via 5G + Tailscale
+- Laptop remote administration
+
+Management Tools:
+- Termius (SSH/SFTP)
+- OpenMediaVault Dashboard
+
+[ Notes ]
+
+- Tailscale remains active continuously
+- NAS is not directly exposed to the public internet
+- Performance limited by legacy 100 Mbps Ethernet hardware
+- Remote management designed with simplicity and stability as priorities
