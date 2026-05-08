@@ -98,6 +98,22 @@ nas-homelab/
 
 ---
 
+## Gallery
+
+<p align="center">
+  <img src="media/photo/pentium.png" width="30%">
+  <img src="media/photo/laptop2.png" width="30%">
+  <img src="media/photo/allnightlong.png" width="30%">
+</p>
+
+<p align="center">
+<img src="media/photo/vm1.jpg" width="30%">
+<video src="media/video/timelapse.mp4" width="30%" autoplay muted loop></video>
+<video src="media/video/atom.mp4" width="400" height="350" autoplay muted loop></video>
+</p>
+
+---
+
 ## ⚠️ Limiti del Sistema
 
 - Performance Hardware: Limitate dalla RAM (1GB DDR2) e dalla CPU legacy.
