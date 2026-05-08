@@ -27,7 +27,7 @@ Il progetto è stato concepito anche come ambiente di test e apprendimento per e
 - **Hardware**: Desktop Intel Pentium desktop (1GB RAM DDR2), 230GB HDD (NTFS)
 - **Protocols**: SMB/CIFS per il file sharing, SSH per la gestione remota
 
-## 🎯 Objectives
+## Objectives
 
 Creare un sistema di storage privato "always-on".
 
@@ -57,13 +57,13 @@ Hybrid Power Control: Per superare i limiti del Wake-on-LAN (WoL) tradizionale s
 - Remote access: Tailscale VPN (mesh network)
 - SSH access: Termius (mobile + desktop)
 
-## 📊 System Architecture
+## System Architecture
 
 ![NAS Architecture](media/diagrams/nas-architecture.png)
 
 ---
 
-## 🌐 Remote Access Strategy
+##  Remote Access Strategy
 
 - Tailscale used for secure private networking
 - Custom local DNS naming for easier access
@@ -75,7 +75,7 @@ Hybrid Power Control: Per superare i limiti del Wake-on-LAN (WoL) tradizionale s
 
 ---
 
-## 💡 Challenges & Problem Solving
+##  Challenges & Problem Solving
 
 Sicurezza: Eliminazione del Port Forwarding sul router domestico tramite tunnel crittografato (VPN)Tailscale.
 
@@ -114,7 +114,7 @@ nas-homelab/
 
 ---
 
-## ⚠️ Limiti del Sistema
+##  Limiti del Sistema
 
 - Performance Hardware: Limitate dalla RAM (1GB DDR2) e dalla CPU legacy.
 
@@ -124,7 +124,7 @@ nas-homelab/
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 Il progetto evolverà verso una build più solida e performante:
 
