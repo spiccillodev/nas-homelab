@@ -1,5 +1,9 @@
 # NAS Homelab – Self-Hosted Storage Infrastructure (DIY Project)
 
+<p align="center">
+  <img src="media/photo/asgana-nas.png" alt="NAS Homelab Logo" width="200"/>
+</p>
+
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Project](https://img.shields.io/badge/project-NAS%20Homelab-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -91,6 +95,22 @@ nas-homelab/
 ├── scripts/                # Automazioni per WoL e manutenzione
 └── config/                 # File di configurazione di esempio (SMB, SSH)
 ```
+
+---
+
+## Gallery
+
+<p align="center">
+  <img src="media/photo/pentium.png" width="30%">
+  <img src="media/photo/laptop2.png" width="30%">
+  <img src="media/photo/allnightlong.png" width="30%">
+</p>
+
+<p align="center">
+<img src="media/photo/vm1.jpg" width="30%">
+<video src="media/video/timelapse.mp4" width="30%" autoplay muted loop></video>
+<video src="media/video/atom.mp4" width="400" height="350" autoplay muted loop></video>
+</p>
 
 ---
 

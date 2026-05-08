@@ -1,0 +1,15 @@
+[global]
+   workgroup = WORKGROUP
+   server string = NAS Homelab
+   security = user
+   map to guest = Bad User
+   dns proxy = no
+
+[Storage]
+   path = /mnt/storage
+   browseable = yes
+   writable = yes
+   guest ok = no
+   read only = no
+   create mask = 0775
+   directory mask = 0775
