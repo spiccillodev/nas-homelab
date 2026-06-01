@@ -107,13 +107,14 @@ nas-homelab/
   <img src="media/photo/vm1.jpg" width="30%">
 </p>
 
+
 ### Recupero Hardware Atom
 
-<img src="media/gif/atom.gif" width="300">
+![Atom Hardware](media/gif/atom.gif)
 
 ### Timelapse Installazione e Configurazione
 
-<img src="media/gif/timelapse.gif" width="300">
+![Timelapse Setup](media/gif/timelapse.gif)
 
 ---
 
