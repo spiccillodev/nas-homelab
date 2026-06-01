@@ -183,9 +183,9 @@ __Analisi Costi-Benefici:__
 
 # 06. Stato Componenti
 
-| Componente | Stato | Note |
-|------------|------|------|
-| HDD 230GB | 🟢 Attivo | Recuperato da sistema danneggiato |
+| Componente | Stato      | Note |
+|------------|------------|------|
+| HDD 230GB  | 🟢 Attivo  | Recuperato da sistema danneggiato |
 | HDD 500GB | 🟢 Attivo | Recuperato da PS4 Slim |
 | RAM | 🟢 Stabile | 1GB DDR2 Samsung |
 | Raffreddamento | 🟡 Monitorato | Pulizia + pasta termica sostituita |
