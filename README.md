@@ -104,12 +104,12 @@ nas-homelab/
   <img src="media/photo/pentium.png" width="30%">
   <img src="media/photo/laptop2.png" width="30%">
   <img src="media/photo/allnightlong.png" width="30%">
+  <img src="media/photo/vm1.jpg" width="30%">
 </p>
 
 <p align="center">
-<img src="media/photo/vm1.jpg" width="30%">
-<video src="media/video/timelapse.mp4" width="30%" autoplay muted loop></video>
-<video src="media/video/atom.mp4" width="400" height="350" autoplay muted loop></video>
+  <img src="media/gif/atom.gif" width="300">
+  <img src="media/gif/timelapse.gif" width="300">
 </p>
 
 ---

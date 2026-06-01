@@ -1,6 +1,6 @@
 # Network Infrastructure & Connectivity
 
-[!NOTE]
+>[!NOTE]
 > In questa sezione viene documentata la strategia di accesso remoto. Viene descritta l'architettura di rete adottata, le tecnologie VPN utilizzate e le soluzioni per garantire un accesso sicuro e senza interruzioni da dispositivi mobili e laptop esterni alla rete locale.
 
 ## Strategia di Accesso Remoto
