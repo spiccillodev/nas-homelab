@@ -104,7 +104,6 @@ nas-homelab/
   <img src="media/photo/pentium.png" width="30%">
   <img src="media/photo/laptop2.png" width="30%">
   <img src="media/photo/allnightlong.png" width="30%">
-  <img src="media/photo/vm1.jpg" width="30%">
 </p>
 
 <p align="center">
